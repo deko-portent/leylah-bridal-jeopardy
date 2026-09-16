@@ -18,7 +18,7 @@ const categories: Category[] = [
   ]},
   { name: 'Love Story', kicker: 'Meet-cute to forever', clues: [
     { id: 's-100', value: 100, prompt: 'When did Leylah and Tahoun first start dating?', answer: 'Grade 11' },
-    { id: 's-200', value: 200, prompt: 'Where did Leylah take her first trip with Tahoun?', answer: 'Barcelona' },
+    { id: 's-200', value: 200, prompt: 'Where did Leylah take her first trip with Tahoun?', answer: 'Madrid' },
     { id: 's-300', value: 300, prompt: 'Where will Leylah live after she gets married?', answer: 'Villette, Cairo' },
     { id: 's-400', value: 400, prompt: 'How long after getting married does Leylah want to wait before having a child?', answer: 'One year' },
     { id: 's-500', value: 500, prompt: 'Name all three honeymoon destinations.', answer: 'The Maldives, Singapore and Bali' },
