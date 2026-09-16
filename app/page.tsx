@@ -10,18 +10,18 @@ type Team = { name: string; score: number };
 
 const categories: Category[] = [
   { name: 'Leylah 101', kicker: 'The essentials', clues: [
-    { id: 'l-100', value: 100, prompt: "What is Leylah's go-to coffee or drink order?", answer: 'Leylah reveals the answer!' },
-    { id: 'l-200', value: 200, prompt: 'What is the one food Leylah could eat every week?', answer: 'Leylah reveals the answer!' },
-    { id: 'l-300', value: 300, prompt: "What is Leylah's biggest pet peeve?", answer: 'Leylah reveals the answer!' },
-    { id: 'l-400', value: 400, prompt: 'If Leylah could instantly master one skill, what would she choose?', answer: 'Leylah reveals the answer!' },
-    { id: 'l-500', value: 500, prompt: "What is Leylah's most-used phrase or expression?", answer: 'Leylah reveals the answer!' },
+    { id: 'l-100', value: 100, prompt: "What is Leylah's favorite chocolate?", answer: 'Galaxy' },
+    { id: 'l-200', value: 200, prompt: "What birthday appears on Leylah's ID?", answer: 'January 1, 2003' },
+    { id: 'l-300', value: 300, prompt: "What is Leylah's aunt's full name?", answer: 'Amal Hafez' },
+    { id: 'l-400', value: 400, prompt: "What are the names of Leylah's brother's two sons?", answer: 'Samy and Zein' },
+    { id: 'l-500', value: 500, prompt: "What is Leylah's exact go-to coffee order?", answer: 'An iced latte with 20 g of honey, 80% skimmed milk and 20% oat milk' },
   ]},
   { name: 'Love Story', kicker: 'Meet-cute to forever', clues: [
-    { id: 's-100', value: 100, prompt: 'Who made the first move?', answer: 'Leylah reveals the answer!' },
-    { id: 's-200', value: 200, prompt: 'Where did the happy couple first meet?', answer: 'Leylah reveals the answer!' },
-    { id: 's-300', value: 300, prompt: 'What was their first date?', answer: 'Leylah reveals the answer!' },
-    { id: 's-400', value: 400, prompt: 'What did Leylah notice first about her fiancé?', answer: 'Leylah reveals the answer!' },
-    { id: 's-500', value: 500, prompt: 'Where and how did the proposal happen?', answer: 'Leylah reveals the answer!' },
+    { id: 's-100', value: 100, prompt: 'When did Leylah and Tahoun first start dating?', answer: 'Grade 11' },
+    { id: 's-200', value: 200, prompt: 'Where did Leylah take her first trip with Tahoun?', answer: 'Barcelona' },
+    { id: 's-300', value: 300, prompt: 'Where will Leylah live after she gets married?', answer: 'Villette, Cairo' },
+    { id: 's-400', value: 400, prompt: 'How long after getting married does Leylah want to wait before having a child?', answer: 'One year' },
+    { id: 's-500', value: 500, prompt: 'Name all three honeymoon destinations.', answer: 'The Maldives, Singapore and Bali' },
   ]},
   { name: 'Her Favorites', kicker: 'Taste test', clues: [
     { id: 'f-100', value: 100, prompt: "What is Leylah's favorite color?", answer: 'Leylah reveals the answer!' },
@@ -30,16 +30,16 @@ const categories: Category[] = [
     { id: 'f-400', value: 400, prompt: 'What is her dream vacation destination?', answer: 'Leylah reveals the answer!' },
     { id: 'f-500', value: 500, prompt: 'Name her ultimate celebrity dinner guest.', answer: 'Leylah reveals the answer!' },
   ]},
-  { name: 'Throwbacks', kicker: 'Back in the day', clues: [
-    { id: 't-100', value: 100, prompt: 'What did Leylah want to be when she grew up?', answer: 'Leylah reveals the answer!' },
-    { id: 't-200', value: 200, prompt: 'What was her childhood nickname?', answer: 'Leylah reveals the answer!' },
-    { id: 't-300', value: 300, prompt: 'What was her most iconic fashion phase?', answer: 'Leylah reveals the answer!' },
-    { id: 't-400', value: 400, prompt: "Name a story that always makes Leylah's friends laugh.", answer: 'Leylah reveals the answer!' },
-    { id: 't-500', value: 500, prompt: 'What was the most trouble Leylah got into growing up?', answer: 'Leylah reveals the answer!' },
+  { name: 'Inner Circle', kicker: 'Family & friends', clues: [
+    { id: 't-100', value: 100, prompt: "When is Tahoun's birthday?", answer: 'July 20' },
+    { id: 't-200', value: 200, prompt: "Name one of Tahoun's parents.", answer: 'Amr' },
+    { id: 't-300', value: 300, prompt: 'Where in the United States did Amani live?', answer: 'Texas' },
+    { id: 't-400', value: 400, prompt: 'How many times did Karim come to Leeds?', answer: 'Three times' },
+    { id: 't-500', value: 500, prompt: "Which story involving Leylah's friends makes everyone laugh the hardest?", answer: 'Leylah reveals the answer!' },
   ]},
   { name: 'Wedding Bells', kicker: 'November 6', clues: [
     { id: 'w-100', value: 100, prompt: 'On what date is Leylah getting married?', answer: 'November 6' },
-    { id: 'w-200', value: 200, prompt: 'What part of the wedding is Leylah most excited about?', answer: 'Leylah reveals the answer!' },
+    { id: 'w-200', value: 200, prompt: "What three colors make up Leylah's wedding palette?", answer: 'Brown, burnt orange and olive green' },
     { id: 'w-300', value: 300, prompt: 'Who is more likely to cry first during the ceremony?', answer: 'Leylah reveals the answer!' },
     { id: 'w-400', value: 400, prompt: 'What will the couple do first on their honeymoon?', answer: 'Leylah reveals the answer!' },
     { id: 'w-500', value: 500, prompt: 'In three words, what will married Leylah be like?', answer: 'Leylah picks her favorite answer!' },
